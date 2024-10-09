@@ -1,11 +1,18 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1727218545
+::res://::1728493835
+BtnSaveExit.cs::CSharpScript::-1::1728431048::0::1::::<>Button<>::
+Button.cs::CSharpScript::-1::1728431079::0::1::::<>Button<>::
 default_env.tres::Environment::-1::1726175305::0::1::::<><>::
 icon.png::CompressedTexture2D::4284060854453673150::1726175305::1726175328::1::::<><>::
-level.tscn::PackedScene::1175473520138715008::1726784304::0::1::::<><>::uid://c147a54ioda8e::::res://tileset.tres<>uid://d1bexvqeofq86::::res://player.tscn<>res://player.gd
-player.gd::GDScript::-1::1726784176::0::1::::<>CharacterBody2D<>::
-player.tscn::PackedScene::8986521432560973641::1726784304::0::1::::<><>::uid://cl0qeujmtogjg::::res://kenney_abstract-platformer/Tilesheet/Kings and Pigs/Sprites/01-King Human/Run (78x58).png<>uid://d4a3po8aa4uf4::::res://kenney_abstract-platformer/Tilesheet/Kings and Pigs/Sprites/01-King Human/Idle (78x58).png
-tileset.tres::TileSet::6659562821493447966::1726784304::0::1::::<><>::uid://c31y7tlpiqxnc::::res://kenney_abstract-platformer/Tilesheet/Kings and Pigs/Sprites/14-TileSets/Terrain (32x32).png<>uid://ckohgegfyoyuc::::res://kenney_abstract-platformer/Tilesheet/tilesheet_complete.png<>uid://b11ufagaxnp0m::::res://kenney_abstract-platformer/Tilesheet/Kings and Pigs/Sprites/14-TileSets/Decorations (32x32).png
+level.tscn::PackedScene::1175473520138715008::1728436481::0::1::::<><>::uid://c147a54ioda8e::::res://tileset.tres<>uid://d1bexvqeofq86::::res://player.tscn<>res://BtnSaveExit.cs
+LevelManager.cs::CSharpScript::-1::1728436428::0::1::::<><>::
+menu.tscn::PackedScene::1526557458561740384::1728436481::0::1::::<><>::res://Button.cs
+OurMainLoop.cs::CSharpScript::-1::1728436422::0::1::::OurMainLoop<>SceneTree<>::
+player.gd::GDScript::-1::1728436356::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::8986521432560973641::1728436482::0::1::::<><>::res://player.gd<>uid://cl0qeujmtogjg::::res://kenney_abstract-platformer/Tilesheet/Kings and Pigs/Sprites/01-King Human/Run (78x58).png<>uid://d4a3po8aa4uf4::::res://kenney_abstract-platformer/Tilesheet/Kings and Pigs/Sprites/01-King Human/Idle (78x58).png
+savegame.json::JSON::-1::1728436488::0::1::::<><>::
+SaveManager.cs::CSharpScript::-1::1728436453::0::1::::<><>::
+tileset.tres::TileSet::6659562821493447966::1728435337::0::1::::<><>::uid://c31y7tlpiqxnc::::res://kenney_abstract-platformer/Tilesheet/Kings and Pigs/Sprites/14-TileSets/Terrain (32x32).png<>uid://ckohgegfyoyuc::::res://kenney_abstract-platformer/Tilesheet/tilesheet_complete.png<>uid://b11ufagaxnp0m::::res://kenney_abstract-platformer/Tilesheet/Kings and Pigs/Sprites/14-TileSets/Decorations (32x32).png
 ::res://addons/::1726175305
 ::res://kenney_abstract-platformer/::1726260526
 License.txt::TextFile::-1::1726260523::0::1::::<><>::

@@ -1,5 +1,6 @@
-[gd_scene load_steps=24 format=3 uid="uid://d1bexvqeofq86"]
+[gd_scene load_steps=25 format=3 uid="uid://d1bexvqeofq86"]
 
+[ext_resource type="Script" path="res://player.gd" id="1_0deg1"]
 [ext_resource type="Texture2D" uid="uid://cl0qeujmtogjg" path="res://kenney_abstract-platformer/Tilesheet/Kings and Pigs/Sprites/01-King Human/Run (78x58).png" id="1_et3s6"]
 [ext_resource type="Texture2D" uid="uid://d4a3po8aa4uf4" path="res://kenney_abstract-platformer/Tilesheet/Kings and Pigs/Sprites/01-King Human/Idle (78x58).png" id="1_ttx6a"]
 
@@ -152,7 +153,8 @@ animations = [{
 "speed": 10.0
 }]
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["Persist"]]
+script = ExtResource("1_0deg1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-10.5, 39)

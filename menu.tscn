@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://v0qgcejvy07m"]
+
+[ext_resource type="Script" path="res://Button.cs" id="1_lx4hy"]
+
+[node name="Menu" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+offset_left = 479.0
+offset_top = 259.0
+offset_right = 667.0
+offset_bottom = 347.0
+text = "Play"
+script = ExtResource("1_lx4hy")

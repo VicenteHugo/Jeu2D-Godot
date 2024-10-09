@@ -2,9 +2,9 @@
 
 [ext_resource type="TileSet" uid="uid://c147a54ioda8e" path="res://tileset.tres" id="1_dnfx8"]
 [ext_resource type="PackedScene" uid="uid://d1bexvqeofq86" path="res://player.tscn" id="1_tccrr"]
-[ext_resource type="Script" path="res://player.gd" id="2_6xqdg"]
+[ext_resource type="Script" path="res://BtnSaveExit.cs" id="4_bwyjv"]
 
-[node name="Node2D" type="Node2D"]
+[node name="MapLevel" type="Node2D"]
 texture_filter = 1
 position = Vector2(-3, 1)
 
@@ -17,5 +17,9 @@ tile_map_data = PackedByteArray("AAACAAcAAQAOAAIAAAANAAgAAQAOAAIAAAAOAAQAAQAOAAI
 tile_set = ExtResource("1_dnfx8")
 
 [node name="Player" parent="." instance=ExtResource("1_tccrr")]
-position = Vector2(634, 264)
-script = ExtResource("2_6xqdg")
+
+[node name="Button" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Save & Exit"
+script = ExtResource("4_bwyjv")
